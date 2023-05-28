@@ -16,6 +16,7 @@ header {
 .search {
   text-align: right;
   padding-bottom: 3px;
+  padding-right: 10px;
 }
 .navlist {
   text-align: left;
