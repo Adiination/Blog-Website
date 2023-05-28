@@ -11,7 +11,8 @@ header {
 
 .title {
   text-align: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: cursive;
+  color: rgb(240, 233, 233);
 }
 .search {
   text-align: right;
@@ -29,7 +30,7 @@ h1 {
   color: #fff;
 }
 body {
-  background-color: #000;
+  background-color: #222;
   color: #fff;
 }
 
@@ -56,8 +57,8 @@ body {
 
 /* CSS for blog post cards */
 .card {
-  background-color: #fff;
-  color: #000;
+  background-color: #235;
+  color: #f3efef;
   padding: 20px;
   border-radius: 8px;
 }
@@ -84,7 +85,7 @@ nav ul {
 
 nav li {
   display: inline;
-  margin-right: 20px;
+  margin-right: 40px;
   font-size: large;
 }
 nav li :hover {
@@ -101,12 +102,13 @@ input[type="text"] {
   border: none;
   border-radius: 3px;
   margin-right: 10px;
+  color: #807171;
 }
 
 button[type="submit"] {
   padding: 5px 10px;
-  background-color: #fff;
-  color: #222;
+  background-color: #807171;
+  color: white;
   border: none;
   border-radius: 3px;
   cursor: pointer;
