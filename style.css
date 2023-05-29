@@ -68,6 +68,10 @@ body {
   height: auto;
   border-radius: 4px;
 }
+.description {
+  text-align: center;
+  font-style: italic;
+}
 
 .card h2 {
   margin-top: 10px;
@@ -117,4 +121,35 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #ccc;
   color: #da1414;
+}
+/* footer */
+
+.footer {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+  text-align: center;
+}
+.footer-content {
+  text-align: center;
+  margin-left: 475px;
+}
+
+.footer li {
+  display: inline-block;
+  margin-left: 50px;
 }
